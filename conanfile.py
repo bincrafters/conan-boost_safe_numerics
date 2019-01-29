@@ -8,6 +8,7 @@ base = python_requires("boost_base/1.69.0@bincrafters/testing")
 
 class BoostSafeNumericsConan(base.BoostBaseConan):
     name = "boost_safe_numerics"
+    version = "1.69.0"
     url = "https://github.com/bincrafters/conan-boost_safe_numerics"
     lib_short_names = ["safe_numerics"]
     header_only_libs = ["safe_numerics"]
